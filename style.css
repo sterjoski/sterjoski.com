@@ -11,12 +11,11 @@ html {
 }
 
 body {
-  font: 16px 'Rubik', sans-serif;
+  font: 16px/1.5 'Rubik', sans-serif;
   color: rgba(0, 0, 0, 0.87);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
 }
 
 div {
