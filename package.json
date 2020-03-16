@@ -1,0 +1,31 @@
+{
+  "name": "sterjoski.com",
+  "private": true,
+  "description": "Vladimir's personal website",
+  "version": "1.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write src/**/*.{ts,tsx}",
+    "start": "yarn run develop",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.5.7",
+    "@mdx-js/react": "^1.5.7",
+    "gatsby": "^2.19.45",
+    "gatsby-plugin-mdx": "^1.0.83",
+    "gatsby-plugin-typescript": "^2.2.5",
+    "gatsby-source-filesystem": "^2.1.56",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  }
+}
