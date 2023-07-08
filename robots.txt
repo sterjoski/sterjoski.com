@@ -1,5 +1,4 @@
-# Rule 1
 User-agent: *
-Allow: /
+Disallow:
 
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: https://sterjoski.com/sitemap.xml

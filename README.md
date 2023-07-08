@@ -1,2 +1,0 @@
-# sterjoski.com
-Personal website

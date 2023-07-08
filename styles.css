@@ -1,0 +1,55 @@
+:root {
+    --bg-color: #fafafa;
+    --text-color: #212121;
+    --href-color: #1976d2;
+}
+
+[data-theme="dark"] {
+    --bg-color: #212121;
+    --text-color: #fafafa;
+    --href-color: #64b5f6;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+        segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+        arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: var(--href-color);
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#about,
+#experience {
+    padding: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
