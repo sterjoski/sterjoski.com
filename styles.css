@@ -15,7 +15,6 @@ body {
         segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
         arial, sans-serif;
     padding: 0;
-    margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
     max-width: 640px;
@@ -34,6 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -43,10 +43,6 @@ header h1 {
 #about,
 #experience {
     padding: 20px;
-}
-
-.job {
-    margin-bottom: 20px;
 }
 
 footer {
